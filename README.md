@@ -1,5 +1,10 @@
 # fitdays-sync
 
+> **Experimental.** This is an unofficial tool, not affiliated with, endorsed by or supported by Fitdays or
+> Guangdong ICOMON Technology. It uses an undocumented API that can change or stop working at any time.
+> Using it may conflict with the Fitdays terms of service and could put your account at risk: read them first
+> and use it at your own risk. Use it only with your own account.
+
 Download your own weigh-ins from the Fitdays (ICOMON) smart-scale cloud and keep them in a CSV,
 one row per weigh-in, with body composition.
 

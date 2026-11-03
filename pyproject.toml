@@ -1,13 +1,14 @@
 [project]
 name = "fitdays-sync"
 version = "0.1.0"
-description = "Download your own Fitdays (ICOMON) smart-scale weigh-ins into a CSV."
+description = "Experimental, unofficial tool to download your own Fitdays (ICOMON) smart-scale weigh-ins into a CSV."
 readme = "README.md"
 license = "MIT"
 requires-python = ">=3.10"
 authors = [{ name = "daredled" }]
 dependencies = []
 classifiers = [
+    "Development Status :: 3 - Alpha",
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
