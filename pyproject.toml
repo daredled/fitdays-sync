@@ -1,0 +1,25 @@
+[project]
+name = "fitdays-sync"
+version = "0.1.0"
+description = "Download your own Fitdays (ICOMON) smart-scale weigh-ins into a CSV."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10"
+authors = [{ name = "daredled" }]
+dependencies = []
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Utilities",
+]
+
+[project.scripts]
+fitdays-sync = "fitdays_sync.cli:main"
+
+[dependency-groups]
+dev = ["pytest>=8"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
